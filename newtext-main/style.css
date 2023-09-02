@@ -1,0 +1,165 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#box {
+  padding-top: 40px;
+}
+#box .minibox {
+  padding-top: 25px;
+  width: 150px;
+  height: 150px;
+  background-color: #32577b;
+  color: #fff;
+  border: 35px solid #4f82a1;
+  text-align: center;
+}
+#box .minibox:hover {
+  transition: 1s;
+  width: 180px;
+  height: 180px;
+  border: 35px solid #4f82a1;
+}
+@media screen and (max-width: 450px) {
+  #box {
+    flex-direction: column-reverse;
+  }
+}
+
+#demo {
+  padding-top: 60px;
+}
+#demo .minibox {
+  width: 150px;
+  height: 80px;
+  background-color: #866278;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  transition: 1s;
+}
+#demo .minibox:hover {
+  background-color: #493942;
+  border: 5px solid #81506d;
+}
+@media screen and (max-width: 800px) {
+  #demo .minibox {
+    width: 100px;
+    height: 50px;
+    background-color: #6771a4;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo .minibox {
+    width: 60px;
+    height: 30px;
+    background-color: #5a3437;
+  }
+}
+
+#boxtwo {
+  padding: 70px 0;
+}
+#boxtwo .minibox {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #946c4a;
+  text-align: center;
+  padding-top: 55px;
+  color: white;
+  font-size: 20px;
+  transition: 2s;
+}
+#boxtwo .minibox:hover {
+  border-radius: 20%;
+}
+@media screen and (max-width: 800px) {
+  #boxtwo .minibox {
+    width: 50px;
+    height: 50px;
+    background-color: #c1d68b;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px 20px 30px 10px;
+  }
+}
+
+#text .minibox {
+  width: 210px;
+  height: 140px;
+  border: 4px solid #456886;
+  padding: 45px 0 0 65px;
+  font-size: 25px;
+  background-color: #456886;
+  color: white;
+}
+#text .one {
+  position: relative;
+  top: 80px;
+}
+#text .two {
+  position: relative;
+  top: 95px;
+}
+#text .three {
+  position: relative;
+  top: 110px;
+}
+#text .four {
+  position: relative;
+  top: 125px;
+}
+#text .five {
+  position: relative;
+  left: 210px;
+  top: 141px;
+}
+#text .six {
+  position: relative;
+  top: 1px;
+}
+
+#texttwo .minibox {
+  width: 210px;
+  height: 140px;
+  background-color: #7a9f6e;
+  border: 4px solid #7a9f6e;
+  color: white;
+  font-size: 25px;
+  padding: 40px 0 0 65px;
+}
+#texttwo .one {
+  position: relative;
+  top: 170px;
+}
+#texttwo .two {
+  position: relative;
+  left: 200px;
+  top: 185px;
+}
+#texttwo .three {
+  position: relative;
+  top: 45px;
+}
+#texttwo .four {
+  position: relative;
+  top: 60px;
+}
+#texttwo .five {
+  position: relative;
+  top: 75px;
+}
+#texttwo .six {
+  position: relative;
+  top: 90px;
+}/*# sourceMappingURL=style.css.map */
